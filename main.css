@@ -1,0 +1,106 @@
+
+body {
+  font-family: Roboto, sans-serif;
+  background: url(images/bg/bg2/car2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.container {
+  padding: 0 0px;
+  margin-left: 5%;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+}
+h5 {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+}
+
+h3 {
+  font-size: 2.5em;
+  margin: 1.25em 0;
+}
+
+h1 {
+  font-size: 2em;
+  background-image: linear-gradient(to top, #800000, #FFA500);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+p {
+  color: #FFA500;
+  margin: 0em 25px;
+ 
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-size: 16px;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+  background-image: linear-gradient(to top, #800000, #FFA500);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+  
+
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #2EE59D;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+  color: white;
+  transform: translateY(-7px);
+}
+/*кнопка новая*/
+.floating-button {
+  text-decoration: none;
+  display: inline-block;
+  width: 140px;
+  height: 49px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 25px 0px;
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+.floating-button:hover {
+  background: #2EE59D;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+  color: white;
+  transform: translateY(-7px);
+}
+
+li {
+  display:inline-block
+}
+
+.contacts:{
+   margin: 10px 0px;
+}
